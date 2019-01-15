@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: microservicecloud-config-client12123  #被git上的配置覆盖

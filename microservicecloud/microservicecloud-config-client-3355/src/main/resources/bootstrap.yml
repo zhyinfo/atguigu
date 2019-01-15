@@ -1,0 +1,39 @@
+spring:
+  cloud:
+    config:
+      name: microservicecloud-config-client #需要从github上读取的资源名称，注意没有yml后缀名
+      profile: test                         #本次访问的配置项
+      label: master                         #git 分支
+      uri: http://config-3344.com:3344      #本微服务启动后先去找 3344号服务(config server)，通过SpringCloudConfig获取GitHub的服务地址
+ 
+
+## git 仓库中 microservicecloud-config-client.yml 内容
+#spring:
+#  profiles:
+#    active:
+#    - dev
+#---
+#server: 
+#  port: 8201 
+#spring:
+#  profiles: dev
+#  application: 
+#    name: microservicecloud-config-client
+#eureka: 
+#  client: 
+#    service-url: 
+#      defaultZone: http://eureka-dev.com:7001/eureka/   
+#---
+#server: 
+#  port: 8202 
+#spring:
+#  profiles: test
+#  application: 
+#    name: microservicecloud-config-client
+#eureka: 
+#  client: 
+#    service-url: 
+#      defaultZone: http://eureka-test.com:7001/eureka/
+ 
+ 
+
