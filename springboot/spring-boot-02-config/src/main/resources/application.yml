@@ -1,0 +1,40 @@
+
+server: 
+  port: 8081
+spring:
+  profiles:
+    active: prod
+
+---
+server:
+  port: 8083
+spring:
+  profiles: dev
+
+
+---
+
+server:
+  port: 8084
+spring:
+  profiles: prod  #指定属于哪个环境
+  
+#---
+#
+##在相同路径下，yml文件会先加载，properties文件后加载，会覆盖yml文件中的相同配置项
+#person:
+#  age: 20
+#  last-name: 二哈
+#  boss: false
+#  birth: 2018/11/11
+#  maps:
+#    age: 22
+#    name: lisi
+#  lists:
+#  - wangwu
+#  - 18
+#  - man
+#  dog:
+#    age: 1
+#    name: erha
+  

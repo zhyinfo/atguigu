@@ -1,0 +1,11 @@
+2018-11-23 11:58:36.097 [ main ] - [ INFO  ] [ c.a.springboot.SpringBoot03LoggingApplication : 48 ] - Starting SpringBoot03LoggingApplication on zhy with PID 9364 (D:\work\sts\workspace\spring-boot-03-logging\target\classes started by ecar in D:\work\sts\workspace\spring-boot-03-logging)
+2018-11-23 11:58:36.098 [ main ] - [ DEBUG ] [ c.a.springboot.SpringBoot03LoggingApplication : 51 ] - Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-11-23 11:58:36.099 [ main ] - [ INFO  ] [ c.a.springboot.SpringBoot03LoggingApplication : 593 ] - No active profile set, falling back to default profiles: default
+2018-11-23 11:58:36.244 [ background-preinit ] - [ INFO  ] [ org.hibernate.validator.internal.util.Version : 30 ] - HV000001: Hibernate Validator 5.3.6.Final
+2018-11-23 11:58:36.887 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2018-11-23 11:58:36.888 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-11-23 11:58:36.953 [ localhost-startStop-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2018-11-23 11:58:37.456 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-23 11:58:37.462 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] - Starting ProtocolHandler ["http-nio-8080"]
+2018-11-23 11:58:37.472 [ main ] - [ INFO  ] [ org.apache.tomcat.util.net.NioSelectorPool : 180 ] - Using a shared selector for servlet write/read
+2018-11-23 11:58:37.486 [ main ] - [ INFO  ] [ c.a.springboot.SpringBoot03LoggingApplication : 57 ] - Started SpringBoot03LoggingApplication in 1.628 seconds (JVM running for 2.111)
